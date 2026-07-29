@@ -5,18 +5,55 @@
 }
 body{
     padding: 100px 15px;
+    display: flex;
+    justify-content: center;
 }
 .inner{
     display: flex;
     flex-direction: column;
-    row-gap: 45px;
+    row-gap: 35px;
+    background-color: #f5f2f5;
 }
 .content{
     display: flex;
-    justify-content: center;
+    background-color: #fff;
+    
 }
 .top{
     background-image: url('image/image2.webp');
     background-size: cover;
+    height: 328px;
+    width: 330px;
     
+}
+.bottom{
+    background-image: url('image/image5.jpg');
+    background-size: cover;
+    height: 328px;
+    width: 330px;
+}
+.left{
+    padding: 20px 30px;
+    width:100%;
+    max-width: 485px;
+}
+h1{
+    font-size: 22px;
+    margin: 5px 0px 10px 0px;
+}
+.down{
+    display: flex;
+    text-align: center;
+    column-gap: 20px;
+    margin-top: 95px;
+    border-top: solid #f7f7f7;
+    padding-top: 35px;
+
+}
+.first p:first-child{
+    color: #6ea680;
+    font-size: 25px;
+}
+.first p:last-child{
+    font-size: 10px;
 }
