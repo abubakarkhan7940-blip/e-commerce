@@ -66,6 +66,9 @@ body{
     padding: 20px 30px;
     width:100%;
     max-width: 485px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 h1{
     font-size: 22px;
@@ -76,7 +79,6 @@ h1{
     display: flex;
     text-align: center;
     align-items: end;
-    height: 112px;
     column-gap: 20px;
     border-top: solid #f7f7f7;
     padding-top: 10px;
@@ -86,7 +88,6 @@ h1{
      display: flex;
     text-align: center;
     align-items: end;
-    height: 151px;
     column-gap: 20px;
     border-top: solid #f7f7f7;
     padding-top: 10px;
