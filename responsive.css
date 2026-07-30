@@ -1,0 +1,22 @@
+@media (max-width:875px) {
+    .outer{
+        padding: 50px 7.5px;
+    }
+    .inner{
+        width: 100%;
+    }
+    .content{
+        flex-direction: column;
+    }
+    .top{
+        width: 100%;
+        border-radius: 10px 10px 0px 0px;
+        padding: 10px;
+        font-size: 32px;
+    }
+    .bottom{
+        width: 100%;
+        padding: 10px;
+        border-radius: 10px 10px 0px 0px;
+    }
+}
